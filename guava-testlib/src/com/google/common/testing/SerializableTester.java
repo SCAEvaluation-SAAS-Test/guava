@@ -16,7 +16,6 @@
 
 package com.google.common.testing;
 
-import com.google.common.annotations.Beta;
 import com.google.common.annotations.GwtCompatible;
 import junit.framework.Assert;
 import junit.framework.AssertionFailedError;
@@ -32,7 +31,6 @@ import junit.framework.AssertionFailedError;
  * @author Mike Bostock
  * @since 10.0
  */
-@Beta
 @GwtCompatible // but no-op!
 public final class SerializableTester {
   private SerializableTester() {}
